@@ -9,9 +9,10 @@
     width="260"
     >
     <v-toolbar color="primary darken-1" dark>
-      <img v-bind:src="computeLogo" height="36" alt="Vue Material Admin Template">
+      <img v-bind:src="computeLogo" height="30" alt="Vue Material Admin Template">
+     
       <v-toolbar-title class="ml-0 pl-3">
-        <span class="hidden-sm-and-down">ECCHANGE</span>
+      <img v-bind:src="computeTitle" height="40" style="padding-top: 10px;" alt="Vue Material Admin Template">
       </v-toolbar-title>        
     </v-toolbar>
     <vue-perfect-scrollbar class="drawer-menu--scroll" :settings="scrollSettings">
@@ -100,6 +101,10 @@ export default {
     computeLogo () {
       return '/static/m.png';
     },
+    computeTitle () {
+      return '/static/Titel.png';
+    },
+
 
     sideToolbarColor () {
       return this.$vuetify.options.extra.sideNav;

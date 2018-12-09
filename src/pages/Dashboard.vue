@@ -85,13 +85,6 @@
           </box-chart>          
         </v-flex>
         <!-- statistic section -->
-       
-     
-        <!-- acitivity/chat widget -->
-     
-     
-     
-                 
       </v-layout>
     </v-container>
   </div>

@@ -4,6 +4,7 @@
       <v-toolbar-side-icon class="hidden-sm-and-up" @click="toggleDrawer"></v-toolbar-side-icon>
       <v-avatar class="hidden-sm-and-down">
         <img src="/static/m.png" alt="Vue Material Mail">
+       <img src="/static/Titel.png" alt="Vue Material Mail">
       </v-avatar>
       <v-toolbar-title class="ml-0 pl-3">
         <span class="hidden-sm-and-down">Mail</span>
